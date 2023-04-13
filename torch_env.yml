@@ -1,0 +1,6 @@
+name: torch
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
